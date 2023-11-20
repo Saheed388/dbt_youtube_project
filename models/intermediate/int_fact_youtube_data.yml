@@ -1,0 +1,45 @@
+version: 2
+
+models:
+  - name: int_video_fact_data
+    description: "Table describing and detailing the YouTube data"
+    columns:
+      - name: comments
+        description: "The total comments under each video"
+        tests:
+          - not_null
+
+      - name: likes
+        description: "The total likes under each video"
+        tests:
+          - not_null
+
+      - name: duration
+        description: "The video length"
+        tests:
+          - not_null
+
+      - name: views
+        description: "The total views under each video"
+        tests:
+          - not_null
+
+      - name: channel name
+        description: "The name of the channel that uploaded the video"
+        tests:
+          - not_null
+
+      - name: date posted
+        description: "When the video was posted"
+        tests:
+          - not_null
+
+      - name: subscribers
+        description: "The total subscribers for each channel"
+        tests:
+          - not_null
+
+      - name: video title
+        description: "Title of the video that was posted"
+        tests:
+          - not_null
