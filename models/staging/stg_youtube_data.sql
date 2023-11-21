@@ -9,8 +9,8 @@ SELECT
     likes,
     duration,
     views,
-    `channel name`, -- Enclosed in backticks to handle the space
-    `date posted`,  -- Enclosed in backticks to handle the space
+    `channel name` as channel_name, -- Enclosed in backticks to handle the space
+    `date posted` as date_posted,  -- Enclosed in backticks to handle the space
     subscribers,
-    `video title`   -- Enclosed in backticks to handle the space
+    `video title` as video_title   -- Enclosed in backticks to handle the space
 FROM source

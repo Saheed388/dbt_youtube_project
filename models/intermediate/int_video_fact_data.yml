@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: int_video_fact_data
+    description: ""
+    columns:
+      - name: channel name
+        description: "Will serve here as primary key"
+
+      - name: comments
+        description: "The total comments under each video"
+
+      - name: likes
+        description: "The total likes under each video"
+
+      - name: views
+        description: "The total views under each video"
+
+      - name: subscribers
+        description: "The total subscribers under each video"

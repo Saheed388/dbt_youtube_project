@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: int_video_dimentional_data
+    description: ""
+    columns:
+      - name: channel_dimentional_id
+        description: "Will serve here as primary key"
+
+      - name: video_title
+        description: "video uploaded title"

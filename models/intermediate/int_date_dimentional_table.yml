@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: int_date_dimentional_table
+    description: ""
+    columns:
+      - name: date_dimentional_id   
+        description: "foriegn key"
+
+      - name: date_posted
+        description: " date the video was uploaded"
+
+      - name: cleaned_duration
+        description: "the video duration after  tranformation "
