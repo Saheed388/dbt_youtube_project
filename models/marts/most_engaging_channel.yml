@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: most_engaging_channel
+    description: "The query retrieves the total views, total comment, and the difference between total views and total comment for each channel from the specified video fact and dimensional data sources, grouping the results by channel_fact_id and ordering them by total views in descending order."
+    columns:
+      - name: channel_fact_id
+        description: "Channels name"
+
+      - name: total_views
+        description: "Total views per channels"
+
+      - name: total_comments
+        description: "Total comment per channels"
+
+      - name: viewer_without_commenting
+        description: "Total number of people of people that view without commenting"

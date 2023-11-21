@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: most_like_channel
+    description: "The query retrieves the total views, total_likes , and the difference between total views and total likes for each channel from the specified video fact and dimensional data sources, grouping the results by channel_fact_id and ordering them by total likes in descending order."
+    columns:
+      - name: channel_fact_id
+        description: "The channels names"
+
+      - name: total_likes
+        description: "Total likes per channels"
+
+      - name: total_views
+        description: "Total views per channels"
+
+      - name: viewer_without_sub
+        description: "People that view some videos but didnt like it"

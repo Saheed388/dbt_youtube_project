@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: sum_of_videos_drop_yearly
+    description: "Table for data numbers of videos upload yearly"
+    columns:
+      - name: channel_dimentional_id
+        description: "Channels names"
+
+      - name: video_count
+        description: "Count of videos uploaded yearly"
+
+      - name: year
+        description: "Year column"
+
+     
